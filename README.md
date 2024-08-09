@@ -1,18 +1,29 @@
 # Project structure
 
 ```
+
 titanic/
-├──── PYTHON/
-│       ├──── .venv/
-│       ├──── data/
-│       │       ├──── train/
-│       │       │       └──── train.csv
-│       │       └──── test/
-│       │               └──── test.csv
-│       └──── scripts/
-│               └──── main.ipynb
-├──── R/
 ├──── .gitignore
 ├──── LICENSE
-└──── README.md
+├──── README.md
+├──── PYTHON/
+│      ├──── requirements.txt
+│      ├──── data/
+│      │       ├──── train/
+│      │       │       └──── train.csv
+│      │       └──── test/
+│      │               └──── test.csv
+│      └──── scripts/
+│              └──── main.ipynb
+└──── R/
+      ├──── renv.lock
+      ├──── R.Rproj
+      ├──── data/
+      │       ├──── train/
+      │       │       └──── train.csv
+      │       └──── test/
+      │               └──── test.csv
+      └──── scripts/
+              └──── main.R
+
 ```
