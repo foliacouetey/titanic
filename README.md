@@ -1,5 +1,6 @@
 # Project structure
 
+```
 titanic/
 ├──── PYTHON/
 │       ├──── .venv/
@@ -14,3 +15,4 @@ titanic/
 ├──── .gitignore
 ├──── LICENSE
 └──── README.md
+```
