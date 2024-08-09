@@ -1,0 +1,9 @@
+# Python packages repository
+PYTHON/.venv
+
+# Python packages repository
+R/renv
+
+# R user settings
+R/.Rproj.user
+R/.Rprofile
