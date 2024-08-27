@@ -11,4 +11,3 @@ R/.Rprofile
 # Test set predictions
 PYTHON/test/test_pred.csv
 R/test/test_pred.csv
-.Rproj.user
