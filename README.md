@@ -1,4 +1,8 @@
-# Project structure
+# Titanic Survival Prediction Project
+
+This project aims to predict passenger survival on the Titanic using machine learning techniques. It includes implementations in both Python and R.
+
+## Project structure
 
 ```
 
