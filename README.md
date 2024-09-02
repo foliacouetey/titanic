@@ -45,7 +45,7 @@ The data is split into training and test sets, located in the respective `data/t
 
 The `main.ipynb` provides more details than the `main.R` file. Both scripts don't implement same models. 
 
-The `main.ipynb` notebook focuses on implementing `logistic regression` and`random forest` models. Even a `mix models of these two models` is proposed.
+The `main.ipynb` notebook focuses on implementing `logistic regression` and`random forest` models; even a `mix models of these two models` is proposed.
 
 The `main.R` script focuses on implementing a `xgboost tree model`. 
 
