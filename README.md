@@ -41,14 +41,14 @@ titanic/
 3. Open the folder `PYTHON` with your VSCode IDE.
 4. In your VSCode terminal, make sure to create a virtual environment named `.venv` in the folder `PYTHON` with:
 
-```python -m venv .venv```
+      ```python -m venv .venv```
 
 5. In your VSCode terminal, activate your `.venv` environment, and install required packages with:
 
-```
-.venv\Scripts\activate
-pip install -r requirements.txt
-```
+      ```
+      .venv\Scripts\activate
+      pip install -r requirements.txt
+      ```
 
 6. Open and run (cell by cell or all cells) the `main.ipynb` notebook using your created virtual environment `.venv` to visualize results.
 7. At the end of running all the notebook cells, your local folder `PYTHON\data\test` is populated by a .csv file named `test_pred.csv`.
@@ -60,14 +60,14 @@ pip install -r requirements.txt
 3. Go to your folder `R`, and open the `R.Rproj` file in RStudio (you are opening a project named R).
 3. Make sure to have installed the package `renv` in your R environment:
 
-```install.packages("renv", dependencies = TRUE)```
+      ```install.packages("renv", dependencies = TRUE)```
 
 4. Using your R Console, make sure to install required packages with:
 
-```renv::restore()```
+      ```renv::restore()```
 
 5. Run (line by line or all lines) of the `main.R` script in your R Console.
-
+6. At the end of running all the lines of the `main.R` script, your local folder `R\data\test` is populated by a .csv file named `test_pred.csv`.
 
 
 
