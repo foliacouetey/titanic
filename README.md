@@ -90,5 +90,5 @@ In our case, our work shows that a simple `logistic regression`, `random forest`
 This project is licensed under the terms of the LICENSE file included in this repository.
 
 ## Acknowledgments
-Kaggle for providing the Titanic dataset.
-Any other acknowledgments or credits are for people who developed the package and programming languages used to realize this project.
+- Kaggle for providing the Titanic dataset.
+- Any other acknowledgments or credits are for people who developed packages and programming languages used to realize this project.
