@@ -34,6 +34,23 @@ titanic/
 
 ## Getting Started
 
+### Data
+
+The data is split into training and test sets, located in the respective `data/train` and `data/test` directories for both Python and R implementations.
+
+### Scripts
+
+- Python: `main.ipynb` is a jupyter notebook which contains the main analysis and model training.
+- R: `main.R` is a R script which contains the R implementation of the analysis and modeling.
+
+The `main.ipynb` is more detailed than the `main.R` file. Both scripts don't implement same models. 
+
+The `main.ipynb` notebook focuses on implementing `logistic regression` and`random forest` models. Even a `mix models of these two models` is proposed.
+
+The `main.R` script focuses on implementing a `xgboost tree model`. 
+
+In our case, our work shows that a simple `logistic regression`, `random forest` or even a `mix models of these two models` can provide better results than a `xgboost tree model`.
+
 ### Python
 
 1. Make sure to install `python version 3.12.4` on your machine.
@@ -43,7 +60,7 @@ titanic/
 
       ```python -m venv .venv```
 
-5. In your VSCode terminal, activate your `.venv` environment, and install required packages with:
+5. In your VSCode terminal, activate your `.venv` environment, and install required packages with: 
 
       ```
       .venv\Scripts\activate
@@ -69,8 +86,9 @@ titanic/
 5. Run (line by line or all lines) of the `main.R` script in your R Console.
 6. At the end of running all the lines of the `main.R` script, your local folder `R\data\test` is populated by a .csv file named `test_pred.csv`.
 
+## License
+This project is licensed under the terms of the LICENSE file included in this repository.
 
-
-
-
-
+## Acknowledgments
+Kaggle for providing the Titanic dataset.
+Any other acknowledgments or credits are for people who developed the package and programming languages used to realize this project.
