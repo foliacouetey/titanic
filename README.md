@@ -34,6 +34,13 @@ titanic/
 
 ## Getting Started
 
+### Clone the repository
+
+You can clone the repository with:
+```
+git clone https://github.com/foliacouetey/titanic.git
+```
+
 ### Data
 
 The data is split into training and test sets, located in the respective `data/train` and `data/test` directories for both Python and R implementations.
